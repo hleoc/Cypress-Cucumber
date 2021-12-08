@@ -1,0 +1,53 @@
+[
+  {
+    "description": "Acessar um e-commerce chamado americanas, onde o\n objetivo é cadastrar um usuário na aplicação",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro de Usuário",
+    "line": 3,
+    "id": "cadastro-de-usuário",
+    "tags": [],
+    "uri": "cadastroUsuario.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-usuário;realizar-o-cadastro-do-usuário-na-aplicação",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Realizar o cadastro do usuário na aplicação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que estou na tela de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 3035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "realizo o cadastro do usuário com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 1372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 11,
+            "name": "o cadastro do usuário é realizado",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

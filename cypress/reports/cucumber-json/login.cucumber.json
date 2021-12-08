@@ -1,0 +1,53 @@
+[
+  {
+    "description": "Para experimentar o uso do cypress vou construir\n testes para a página de login da Americanas",
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "line": 3,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;realizar-login-na-aplicação-sem-sucesso​",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Realizar login na aplicação sem sucesso​",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 2001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "realizo o login do usuario sem sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 1221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "login do usuario não é realizado",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

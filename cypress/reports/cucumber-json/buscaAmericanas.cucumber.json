@@ -1,0 +1,88 @@
+[
+  {
+    "description": "Para experimentar o uso do Cypress construí cenários para\n verificar a busca por produtos no site da Americanas",
+    "keyword": "Funcionalidade",
+    "name": "Busca",
+    "line": 3,
+    "id": "busca",
+    "tags": [],
+    "uri": "buscaAmericanas.feature",
+    "elements": [
+      {
+        "id": "busca;realizar-uma-busca-por-produtos-na-página-da-americanas",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Realizar uma busca por produtos na página da Americanas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que estou na página inicial da Americanas",
+            "result": {
+              "status": "undefined",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "realizo uma busca por produtos",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "visualizo o resultado da busca",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "busca;realizar-uma-busca-por-produtos-inexistentes-na-página-da-americanas",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Realizar uma busca por produtos inexistentes na página da Americanas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou na página inicial da Americanas",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "realizo uma busca por produto inexistente",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "visualizo que nenhum resultado da busca foi encontrado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
